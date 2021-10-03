@@ -1,0 +1,25 @@
+CATALOG {
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+COVER {
+    display: block;
+    margin-bottom: 20pt;
+    margin-left: 0;
+}
+TITLE {
+    display: block;
+    color: #ffd900;
+    font-size: 20pt;
+}
+ARTIST {
+    display: block;
+    color: #000000;
+    font-size: 20pt;
+}
+GENRE, YEAR {
+    display: block;
+    color: #66cfff;
+}

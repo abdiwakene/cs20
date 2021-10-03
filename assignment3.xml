@@ -1,0 +1,72 @@
+<?xml-stylesheet href="assignment3_design.css"?>
+<CATALOG>
+    <COVER>
+        <TITLE>Respect</TITLE>
+        <ARTIST>Aretha Franklin</ARTIST>
+        <GENRE>R&amp;B</GENRE>
+        <YEAR>1967</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>A Change is Gonna Come</TITLE>
+        <ARTIST>Sam Cooke</ARTIST>
+        <GENRE>R&amp;B</GENRE>
+        <YEAR>1964</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Like a Rolling Stone</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <GENRE>Rock</GENRE>
+        <YEAR>1965</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Smells Like Teen Spirit</TITLE>
+        <ARTIST>Nirvana</ARTIST>
+        <GENRE>Rock</GENRE>
+        <YEAR>1991</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Strawberry Fields Forever</TITLE>
+        <ARTIST>The Beatles</ARTIST>
+        <GENRE>Rock</GENRE>
+        <YEAR>1967</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>God Only Knows</TITLE>
+        <ARTIST>The Beach Boys</ARTIST>
+        <GENRE>Pop</GENRE>
+        <YEAR>1966</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Superstition</TITLE>
+        <ARTIST>Stevie Wonder</ARTIST>
+        <GENRE>Classic Soul</GENRE>
+        <YEAR>1972</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Gimme Shelter</TITLE>
+        <ARTIST>The Rolling Stones</ARTIST>
+        <GENRE>Pop/Rock</GENRE>
+        <YEAR>1969</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>I Want to Hold Your Hand</TITLE>
+        <ARTIST>The Beatles</ARTIST>
+        <GENRE>Rock</GENRE>
+        <YEAR>1963</YEAR>
+    </COVER>
+
+    <COVER>
+        <TITLE>Crazy in Love</TITLE>
+        <ARTIST>Beyoncé</ARTIST>
+        <GENRE>Pop</GENRE>
+        <YEAR>2003</YEAR>
+    </COVER>
+</CATALOG>
