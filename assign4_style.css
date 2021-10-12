@@ -1,0 +1,46 @@
+h1 {color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align:center; padding: 0px;}
+h2 {color: #c89d7c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center; padding: 0px;
+}
+h3 {color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center; padding: 0px;
+}
+
+body {        
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.site_header {
+    background-image: url('hotdog1.jpg');
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    height: 10em;
+    position: relative }
+.menu p {
+    color: black;
+    display: block;
+    padding: 10px 10px;
+    border: 3px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
