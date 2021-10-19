@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assign5_style.css">
+        
+    <title> Lucky for Life </title>
+
+
+</head>
+
+<body>
+    <div class = "site_header">
+        <a href = "https://abdiwakene.github.io/cs20/assignment5.html"> <h1> Lucky for Life </h1> </a>
+    </div>
+
+    <h2>6 Numbers Could Change Your Life</h2> 
+
+    <!-- <h3><p>Click to enter winning numbers.</p></h3>
+    <h3><button onclick="lucky()">Ticket</button></h3> -->
+
+    
+    <script language="javascript">
+
+        //function generating random numbers
+        var rand_num = function(min, max) {
+            var random = Math.floor((Math.random() * max) + min);
+            random = parseInt(random);
+            return random;
+        }
+    
+        //array of 5 random white numbers
+        let white_rand = [rand_num(1, 48), rand_num(1, 48), rand_num(1, 48), rand_num(1, 48), rand_num(1, 48)];
+    
+        //sorting the values within array of random white numbers
+        let white_rand_sort = white_rand.slice();
+
+        white_rand_sort = white_rand_sort.sort(function(a, b) { return a - b; });
+        
+        //random red "Lucky" number
+        var red_rand = rand_num(1,18);
+    
+        window.onload = function lucky(){
+    
+            var white_nums = (prompt("Please type in the first 5 winning numbers (between 1-48), seperated by 1 space each. Ex. 1 2 3 4 5"));
+            var white_nums = white_nums.split(' ');
+    
+            white_nums =  white_nums.sort(function(a, b) { return a - b; });
+    
+            var red_nums = (prompt("Please type in the 1 winning Lucky number (between 1-18)."));
+    
+            //check white numbers
+            var count = 0;
+            for (var i = 0; i < white_rand.length; i++) {
+                for (var j = 0; j < white_nums.length; j++){
+                    if (white_rand[i] == white_nums[j]){
+                        count++;
+                        break;
+                    }
+                }
+                
+            }
+    
+    
+            var win = "";
+
+            if ((count == 5) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $7,000 a WEEK for LIFE!";
+            }else if(count == 5){
+                win = "<br>Your winnings: $25,000 a YEAR for LIFE!";
+            }else if ((count == 4) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $5,000";
+            }else if(count == 4){
+                win = "<br>Your winnings: $200";
+            }else if ((count == 3) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $150";
+            }else if (count == 3){
+                win = "<br>Your winnings: $20";
+            }else if ((count == 2) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $25";
+            }else if (count == 2){
+                win = "<br>Your winnings: $3";
+            }else if ((count == 1) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $6";
+            }else if ((count == 0) && (red_rand == red_nums)){
+                win = "<br>Your winnings: $4";
+            }else{
+                win = "<br>Sorry those are not the winning numbers! Try again!";
+            }
+        
+    
+            document.writeln("<br>The Ticket</br>");
+        
+            document.writeln("<br>Random Pick: " + white_rand + " lucky " + red_rand);
+            document.writeln("<br>Pick sorted: " + white_rand_sort + " lucky " + red_rand);
+            document.writeln("<br>Winning numbers sorted: " + white_nums + " lucky " + red_nums);
+            document.writeln("<br>Number matching: " + count);
+            if (red_rand == red_nums){
+                document.writeln("<br>Lucky ball matches!");
+            } else {
+                document.writeln("<br>Lucky ball does not match.");
+            }
+            document.writeln(win);
+        }
+        
+    </script>
+</body>
+</html>
