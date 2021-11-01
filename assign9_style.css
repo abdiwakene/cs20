@@ -10,9 +10,20 @@ h3 {color: #333;
     text-align: center; padding: 0px; font-size: 20px;
 }
 
-body {        
-    padding-top: 160px;
-    padding-bottom: 80px;
+body{
+    background-color:  rgb(241, 239, 239);
+    padding-left: 2rem;
+    font-family: 'Times New Roman';
+}
+
+#filter{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 16px;
 }
 
 .site_header {
