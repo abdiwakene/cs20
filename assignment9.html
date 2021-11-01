@@ -30,11 +30,11 @@
 
         <div id="data"></div>
         <script language="javascript">
-            var ourSongs ;
+            var catalog;
             $(document).ready(function() {
-                var theDiv = document.getElementById('data');
+                var song_data = document.getElementById('data');
                 $.getJSON("song_list.json", function(songs){
-                    ourSongs = songs;
+                    catalog = songs;
                     for (i = 0; i < songs.length; i++){
                         var str = "";
                         str ="<div id=" + "song" + i + ">";
@@ -44,22 +44,22 @@
                         str += "<dt>Released: " + songs[i].year + " </dt>";
                         str += "</dl></div>";
 
-                        theDiv.innerHTML += str;
+                        song_data.innerHTML += str;
 
                     }
                 });
 
             });
-            $("form").submit(function(e){
-                e.preventDefault();
+            $("form").submit(function(a){
+                a.preventDefault();
                 var filter = $("select").val()
                 console.log(filter)
-                for (i = 0; i < ourSongs.length; i++){
+                for (i = 0; i < catalog.length; i++){
                     var id = "song" + i;
                     if (filter === "Select"){
                         document.getElementById(id).style.display = "block";
                     }
-                    else if (ourSongs[i].genre.includes(filter)){
+                    else if (catalog[i].genre.includes(filter)){
                         document.getElementById(id).style.display = "block";
                     }
                     else {
