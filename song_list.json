@@ -1,0 +1,65 @@
+{
+    "song_list": [
+        {
+            "title" : "Respect",
+            "artist" : "Aretha Franklin",
+            "genre" : ["R&B"],
+            "year": "1967"
+        },
+        {
+            "title" : "A Change is Gonna Come",
+            "artist" : "Sam Cooke",
+            "genre" : ["R&B"],
+            "year" : "1964"
+        },
+        {
+            "title" : "Like a Rolling Stone",
+            "artist" : "Bob Dylan",
+            "genre" : ["Rock"],
+            "year" : "1965"
+        },
+        {
+            "title" : "Smells Like Teen Spirit",
+            "artist" : "Nirvana",
+            "genre" : ["Rock"],
+            "year" : "1991"
+        },
+        {
+            "title" : "Strawberry Fields Forever",
+            "artist" : "The Beatles",
+            "genre" : ["Rock"],
+            "year" : "1967"
+        },
+        {
+            "title" : "God Only Knows",
+            "artist" : "The Beach Boys",
+            "genre": ["Pop"],
+            "year": "1966"
+        },
+        {
+            "title" : "Superstition",
+            "artist" : "Stevie Wonder",
+            "genre": ["Classic Soul"],
+            "year": "1972"
+        },
+        {
+            "title" : "Gimme Shelter",
+            "artist" : "The Rolling Stones",
+            "genre": ["Pop", " Rock"],
+            "year": "1969"
+        },
+        {
+            "title" : "I Want to Hold Your Hand",
+            "artist" : "The Beatles",
+            "genre": ["Rock"],
+            "year": "1963"
+        },
+        {
+            "title" : "Crazy in Love",
+            "artist" : "Beyoncé",
+            "genre": ["Pop"],
+            "year": "2003"
+        }
+    ]
+}
+
