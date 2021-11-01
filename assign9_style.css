@@ -51,6 +51,17 @@ a {
     overflow: hidden;
 
 }
+
+#filter{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
 td{
     border: 5px solid white;
     padding:10px;
