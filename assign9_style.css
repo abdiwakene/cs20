@@ -33,30 +33,3 @@ select{
 a {
     text-decoration: none;
 }
-
-.flex-container{
-    display: flex;
-    background-color:white;
-    align-items: stretch;
-    flex-direction: row;
-
-}
-.flex-container div{
-    background-image: url('background.jpg');
-    width:30%;
-    margin: 10px;
-    padding: 20px 30px 30px 30px;
-    overflow: hidden;
-
-}
-td{
-    border: 5px solid white;
-    padding:10px;
-    text-align: center;
-}
-.wrapper {
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
