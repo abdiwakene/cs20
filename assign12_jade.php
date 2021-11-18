@@ -45,3 +45,7 @@
         } else {
             echo "Not found!";
         }
+        
+        ?>
+    </body>
+</html>
