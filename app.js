@@ -6,10 +6,6 @@ const urls = require("url");
 const port = process.env.port || 8080; // port to listen on
 
 const app = express(); // instantiate express
-//app.use(require("cors")()); // allow Cross-domain requests
-//app.use(require("body-parser").json()); // automatically parses request data to JSON
-//app.use(express.urlencoded());
-
 
 const uri = "mongodb+srv://atlasAdmin:cs20password@cluster0.nhrgx.mongodb.net/companies?retryWrites=true&w=majority"; // put your URI HERE
 
